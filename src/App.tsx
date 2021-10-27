@@ -1,14 +1,14 @@
 import React from 'react';
+import Home from './pages/home';
 
 
 
 
-function App() {
+const App:React.FC = () => {
   return (
-    <div>
-        Qualquer coisa
-
-    </div>
+    <>
+      <Home/>
+    </>
   );
 }
 
